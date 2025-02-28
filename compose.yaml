@@ -1,0 +1,7 @@
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: compose-demo
+    env_file: .env

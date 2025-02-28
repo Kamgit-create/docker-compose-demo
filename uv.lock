@@ -118,11 +118,19 @@ dependencies = [
     { name = "ruff" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ruff" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "aiogram", specifier = ">=3.18.0" },
     { name = "ruff", specifier = ">=0.9.8" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ruff", specifier = ">=0.9.8" }]
 
 [[package]]
 name = "frozenlist"
