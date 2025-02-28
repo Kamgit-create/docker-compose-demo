@@ -24,8 +24,8 @@ BOT_TOKEN=your_bot_token
 
 ## How to run
 
-To run the application you need to execute the following command:
+To run the application you need to execute makefile target `run`:
 
 ```bash
-uv run app/main.py
+make run
 ```
